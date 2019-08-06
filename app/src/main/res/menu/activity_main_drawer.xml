@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:titleCondensed="@string/menu_provas"
+
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_aulas"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/menu_aulas" />
+        <item
+            android:id="@+id/nav_avisos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_avisos" />
+        <item
+            android:id="@+id/nav_material"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/menu_material" />
+        <item
+            android:id="@+id/nav_notas"
+            android:icon="@drawable/ic_check_box_black_24dp"
+            android:title="@string/menu_notas" />
+        <item
+            android:id="@+id/nav_provas"
+            android:icon="@drawable/ic_test_black_24dp"
+            android:title="@string/menu_provas" />
+
+
+
+    </group>
+
+
+
+</menu>
